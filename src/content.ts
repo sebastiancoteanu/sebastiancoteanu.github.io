@@ -136,7 +136,7 @@ export const experience: ExperienceRole[] = [
     bullets: [
       'Owned contact center KPI dashboards and coaching features end to end across Go, ClickHouse, and React.',
       'Built data ingestion and analytics pipelines with Go, PostgreSQL, ClickHouse, and durable Temporal workflows.',
-      'Leading self-service reporting design and development, defining secure APIs and scalable background exports.',
+      'Led the architecture and API design for self-service reporting, defining secure data access and scalable background exports.',
       'Integrated workforce management APIs, bringing scheduling and performance data into shared analytics pipelines.',
       'Resolved production bottlenecks, distributed query failures, and access-control issues for large organizations.',
       'Drove technical architecture and API design, partnering with product and design from requirements through rollout.',
