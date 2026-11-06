@@ -12,9 +12,8 @@
 //    role. The "Go x React" specialisation from the LinkedIn headline is kept
 //    in the Cresta card tags rather than the hero, to avoid clutter.
 //
-// 3. Cresta role added at the top. LinkedIn says "Jul 2025 – Present" with
-//    the note "Building AI agents". Bullets are minimal because the role is
-//    very recent — expand as you ship more.
+// 3. Cresta updated from the CV and contribution one-pager (Nov 2026).
+//    Six public-facing bullets; self-service reporting remains in progress.
 //
 // 4. Qualitest is no longer current. LinkedIn end-date: Jul 2025. Dates and
 //    isCurrentRole updated accordingly.
@@ -37,7 +36,7 @@
 //
 // 10. High-school entry added to education per LinkedIn.
 //
-// 11. New highlight card for AI agents work at Cresta.
+// 11. Cresta highlight reflects full-stack analytics and coaching ownership.
 // -----------------------------------------------------------------------------
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -114,7 +113,7 @@ export const hero: HeroData = {
   title: 'Senior Software Engineer',
   location: 'Bucharest, Romania',
   summary:
-    'Currently building AI agents at Cresta. 9+ years of shipping scalable, ' +
+    'Building contact center performance analytics and coaching tools at Cresta, with full-stack ownership. 9+ years of shipping scalable, ' +
     'high-performance software — from real-time cybersecurity dashboards to full-stack ' +
     'trading platforms. I lead teams toward cleaner architectures and code that lasts.',
   cta: [
@@ -135,11 +134,12 @@ export const experience: ExperienceRole[] = [
     endYear: 2026, // current
     isCurrentRole: true,
     bullets: [
-      'Designed the integration architecture for third-party workforce management APIs, defining clear data flows for ingesting scheduling and resource-pool data into analytics pipelines.',
-      'Improved the data export system with time-range filtering and server-to-server gRPC optimizations for large, distributed dataset processing.',
-      'Designed the ClickHouse analytics schema and built a Postgres → ClickHouse replication pipeline for high-volume analytical workloads.',
-      'Built Go backend services for CSV data parsing and transformation, with job orchestration handled via Temporal.',
-      'Implemented frontend features in React and TypeScript, including data import flows with real-time preview and validation.',
+      'Owned contact center KPI dashboards and coaching features end to end across Go, ClickHouse, and React.',
+      'Built data ingestion and analytics pipelines with Go, PostgreSQL, ClickHouse, and durable Temporal workflows.',
+      'Leading self-service reporting design and development, defining secure APIs and scalable background exports.',
+      'Integrated workforce management APIs, bringing scheduling and performance data into shared analytics pipelines.',
+      'Resolved production bottlenecks, distributed query failures, and access-control issues for large organizations.',
+      'Drove technical architecture and API design, partnering with product and design from requirements through rollout.',
     ],
     tags: [
       'Go',
@@ -233,9 +233,9 @@ export const experience: ExperienceRole[] = [
 export const highlights: Highlight[] = [
   {
     icon: '🤖',
-    title: 'AI Agent Development',
+    title: 'Contact Center Analytics',
     description:
-      'Joining Cresta as a Senior Software Engineer to build AI agents — working at the intersection of Go, React, and machine-learning-powered product intelligence.',
+      'Owned analytics and coaching features at Cresta from data ingestion and Go APIs to React dashboards, connecting contact center KPIs with coaching goals.',
   },
   {
     icon: '🛡️',
